@@ -166,7 +166,7 @@ Save Account Link: [Save Account](https://${vmessData.domain}:81/vmess-${vmessDa
           })
         .catch(error => {
           console.error('Error saat membuat VMess:', error);
-          return resolve('❌ Terjadi kesalahan saat membuat VMess. Silakan coba lagi nanti.');
+          return resolve('❌ ELOR Terjadi kesalahan saat membuat VMess. Silakan coba lagi nanti.');
         });
     });
   });
